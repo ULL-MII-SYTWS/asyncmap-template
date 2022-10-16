@@ -1,0 +1,4 @@
+node_modules
+output.txt
+salida.txt
+test/f*.txt
