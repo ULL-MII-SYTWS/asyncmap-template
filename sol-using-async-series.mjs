@@ -20,7 +20,7 @@ if (!program.files || program.files.length === 0) program.help();
 
 let readers = program.files.map(
     // fill it with your code
-});
+);
 
 series(readers, function (err, results) {
   /* Fill the code */
