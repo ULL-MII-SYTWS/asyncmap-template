@@ -2,13 +2,14 @@
 
 * [Descripción de la práctica](https://ull-mii-sytws.github.io/practicas/asyncmap.html)
 
-## Files
+## Instructions
 
 * Run `npm run create-inputs` to create the `test/f#.txt` files
 * [callback-doom-example.mjs](callback-doom-example.mjs) Example of the callback hell
 * [concatSerialize.js](concatSerialize.js) write here your solution to the seq problem without using the async module
 * [sol-using-async.mjs](sol-using-async.mjs) write here your solution to the par problem using the async module
-* [my-async.mjs](my-async.mjs) write here your solution to the par problem without using the async module
+* [my-async.mjs](my-async.mjs) write here your solution to the par problem without using the async module. `npm test` checks the solution for a simple case
+* `npm run test-err` checks the solution for a case when one of the input files does not exists
   
 ## Usage
 
